@@ -14,5 +14,9 @@ public class Variable {
         name = "Budi Nugraha";
         System.out.println(name);
 
+        var firstName = "Eko";
+        var middleName = "Kurniawan";
+        var lastName = "Khannedy";
+
     }
 }
