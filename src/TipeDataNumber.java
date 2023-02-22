@@ -9,5 +9,10 @@ public class TipeDataNumber {
         float iniFloat = 10.10F;
         double iniDouble = 10.10;
 
+        int decimalInt = 34;
+        int hexadecimal = 0xFFFFFF;
+        int binaryDecimal = 0b10101010;
+
+
     }
 }
