@@ -3,10 +3,11 @@ public class Variable {
         String name;
         name = "Eko Kurniawan Khanedy";
 
+        System.out.println(name);
+
         int age = 30;
         String address = "Indonesia";
 
-        System.out.println(name);
         System.out.println(age);
         System.out.println(address);
 
