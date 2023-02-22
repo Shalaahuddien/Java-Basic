@@ -11,5 +11,8 @@ public class Variable {
         System.out.println(age);
         System.out.println(address);
 
+        name = "Budi Nugraha";
+        System.out.println(name);
+
     }
 }
