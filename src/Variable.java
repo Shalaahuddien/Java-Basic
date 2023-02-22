@@ -18,5 +18,7 @@ public class Variable {
         var middleName = "Kurniawan";
         var lastName = "Khannedy";
 
+        final String application = "Belajar Java";
+
     }
 }
