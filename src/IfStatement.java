@@ -28,5 +28,7 @@ public class IfStatement {
         }else{
             System.out.println("Nilai Anda E");
         }
+
+
     }
 }
