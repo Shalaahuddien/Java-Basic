@@ -34,5 +34,14 @@ public class Array {
         arrayLong[0] = 0;
 
         System.out.println(arrayLong.length);
+
+        String[][] members = {
+                {"Eko", "Kurniawan"},
+                {"Budi", "Nugraha"},
+                {"Joko"}
+        };
+
+        System.out.println(members[0][1]);
+        System.out.println(members[1][0]);
     }
 }
