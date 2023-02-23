@@ -6,6 +6,9 @@ public class OperasiBoolean {
         var lulusAbsen = absen >= 75;
         var lulusNilaiAkhir = nilaiAkhir >= 75;
 
+//        boolean lulusAbsen = absen >= 75;
+//        boolean lulusNilaiAkhir = nilaiAkhir >= 75;
+
         var lulus = lulusAbsen && lulusNilaiAkhir;
         System.out.println(lulus);
     }
