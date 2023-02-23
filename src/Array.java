@@ -21,6 +21,8 @@ public class Array {
                 "Eko", "Kurniawan", "Khanedy"
         };
 
+        namaNama[0] = null;
+
         int[] arrayInt = new int[]{
                 1,2,3,4,5,6,7,8,9,10
         };
@@ -28,5 +30,9 @@ public class Array {
         long[] arrayLong = {
                 10L, 20L, 30L
         };
+
+        arrayLong[0] = 0;
+
+        System.out.println(arrayLong.length);
     }
 }
