@@ -31,5 +31,17 @@ public class SwitchStatement {
             }
         }
 
+        String ucapan;
+
+        switch (nilai)
+        {
+            case "A" -> ucapan = "Wow Anda Lulus Dengan Baik";
+            case "B", "C" -> ucapan = "Anda Lulus";
+            case "D" -> ucapan = "Anda Tidak Lulus";
+            default -> ucapan = "Mungkin Anda Salah Jurusan";
+        }
+
+        System.out.println(ucapan);
+
     }
 }
