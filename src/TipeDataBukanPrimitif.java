@@ -13,7 +13,14 @@ public class TipeDataBukanPrimitif {
 
         int iniInt = 100;
 
-        Integer iniInteger2 = iniInt;
+        Integer iniObject = iniInt;
+
+        short iniShort = iniObject.shortValue();
+        long iniLong2 = iniObject.longValue();
+        float iniFloat = iniObject.floatValue();
+
+        Long amount = 1000000L;
+//        amount.
 
     }
 }
