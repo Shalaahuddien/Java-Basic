@@ -17,5 +17,19 @@ public class SwitchStatement {
             default:
                 System.out.println("Mungkin Anda Salah Jurusan");
         }
+
+//        var nilai2 = "B";
+
+        switch (nilai)
+        {
+            case "A" -> System.out.println("Wow Anda Lulus Dengan Baik");
+            case "B", "C" -> System.out.println("Anda Lulus");
+            case "D" -> System.out.println("Anda Tidak Lulus");
+            default ->
+            {
+                System.out.println("Mungkin Anda Salah Jurusan");
+            }
+        }
+
     }
 }
