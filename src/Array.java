@@ -16,5 +16,17 @@ public class Array {
         System.out.println(stringArray[0]);
 
         String[] stringArray2 = new String[3];
+
+        String[] namaNama = {
+                "Eko", "Kurniawan", "Khanedy"
+        };
+
+        int[] arrayInt = new int[]{
+                1,2,3,4,5,6,7,8,9,10
+        };
+
+        long[] arrayLong = {
+                10L, 20L, 30L
+        };
     }
 }
