@@ -1,6 +1,6 @@
 public class IfStatement {
     public static void main(String[] args) {
-        var nilai = 80;
+        var nilai = 70;
         var absen = 90;
 
         var lulusNilai = nilai >= 75;
@@ -11,6 +11,9 @@ public class IfStatement {
         if(nilai >= 75 && absen >= 75)
         {
             System.out.println("Anda Lulus");
+        } else
+        {
+            System.out.println("Anda Tidak Lulus");
         }
     }
 }
