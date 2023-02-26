@@ -1,6 +1,7 @@
 public class RecursiveMethod {
     public static void main(String[] args) {
 
+        System.out.println(factoriaRecursive(5));
         System.out.println(factorialLoop(5));
         System.out.println(1*2*3*4*5);
 
