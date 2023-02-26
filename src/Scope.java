@@ -1,6 +1,7 @@
 public class Scope {
     public static void main(String[] args) {
-
+        sayHello("EKO");
+        sayHello("");
     }
 
     static void sayHello(String name)
