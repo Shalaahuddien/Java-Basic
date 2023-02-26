@@ -1,10 +1,13 @@
 public class MethodReturnValue {
     public static void main(String[] args) {
-        var a = 100;
-        var b = 200;
-        var c = sum(a, b);
+//        var a = 100;
+//        var b = 200;
+//        var c = sum(a, b);
 
-        System.out.println(c);
+        var result1 = sum(100, 100);
+        System.out.println(result1);
+
+//        System.out.println(c);
     }
 
     static int sum(int value1, int value2)
