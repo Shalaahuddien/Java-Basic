@@ -10,6 +10,9 @@ public class MethodReturnValue {
 
         System.out.println(sum(200, 200));
 
+        System.out.println(hitung(100, "+", 100));
+        System.out.println(hitung(200, "-", 100));
+
 //        System.out.println(c);
     }
 
