@@ -16,4 +16,16 @@ public class RecursiveMethod {
         return result;
     }
 
+    static int factoriaRecursive(int value)
+    {
+        if(value == 1)
+        {
+            return 1;
+        }
+        else
+        {
+            return value * factoriaRecursive(value -1);
+        }
+    }
+
 }
