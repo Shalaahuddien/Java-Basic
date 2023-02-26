@@ -6,9 +6,14 @@ public class ForEach {
                         "Programmer","Zaman","Now"
                 };
 
-        for (int i = 0; i < array.length; i++)
+        for (var value : array)
         {
-            System.out.println(array[i]);
+            System.out.println(value);
         }
+
+//        for (int i = 0; i < array.length; i++)
+//        {
+//            System.out.println(array[i]);
+//        }
     }
 }
