@@ -1,6 +1,10 @@
 public class MethodOverloading {
     public static void main(String[] args) {
 
+        sayHello();
+        sayHello("EKO");
+        sayHello("EKO", "Kurniawan");
+
     }
     static void sayHello()
     {
