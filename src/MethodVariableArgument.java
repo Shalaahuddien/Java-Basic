@@ -1,8 +1,10 @@
 public class MethodVariableArgument {
     public static void main(String[] args) {
 
-        int[] values = {80,80,80,80,80};
-        sayCongrats("EKO", values);
+//        int[] values = {80,80,80,80,80};
+//        sayCongrats("EKO", values);
+
+        sayCongrats("EKO", 80,90,79,48);
 
     }
 
