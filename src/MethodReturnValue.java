@@ -5,7 +5,10 @@ public class MethodReturnValue {
 //        var c = sum(a, b);
 
         var result1 = sum(100, 100);
+
         System.out.println(result1);
+
+        System.out.println(sum(200, 200));
 
 //        System.out.println(c);
     }
