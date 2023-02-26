@@ -7,6 +7,8 @@ public class RecursiveMethod {
 
         loop(10);
 
+        loop(10000);
+
     }
 
     static int factorialLoop(int value)
