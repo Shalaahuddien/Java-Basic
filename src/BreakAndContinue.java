@@ -11,5 +11,6 @@ public class BreakAndContinue {
                 break;
             }
         }
+        System.out.println("Perulangan berhenti");
     }
 }
